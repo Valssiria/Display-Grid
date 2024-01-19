@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(131, 125, 125);
+
+
+    /* grid-template-columns: 1fr 1fr 1fr; */
+
+    /* display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-columns: 100px;
+    grid-template-columns: 20% 20% 20%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 5fr 2fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 100px);
+    grid-template-columns: minmax(200px, 1fr) 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(100px, auto)); */
+    /* grid-temple-column é aplicado no container, div */
+
+
+    /* grid-temple-rows */
+    /* grid-template-rows: 100px 200px 100px;
+    grid-template-rows: 1fr 2fr 3fr;
+    grid-template-rows: 10% 20% 70%; */
+    /* define as colunas, quantas colunas vamos ter de tamanho */
+
+    /* grid-gap */
+    /* grid-row-gap:20px; */
+    /* grid-column-gap:50px; */
+    /* grid-gap:10px 40px; */
+/* define as distancias entre as linhas uma da outra*/
+
+
+/* grid auto rows*/
+/* grid-auto-rows: 300px;
+grid-auto-rows: 1fr;
+grid-auto-rows: minmax(500px, auto);
+grid-auto-rows: minmax(200px, auto); */
+/* serve para definir o tamanhos de lnhas automaticas */
+
+
+
+    /*Alinhamento do container por padrão todas vem como strech */
+    /* justify-content: center; */
+    /* justify-content: end;
+    justify-content: space-around;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: start; */
+
+    /* align-content: center; */
+    /* align-content: baseline;
+    align-content: end;
+    align-content: flex-start;
+    align-content: flex-end;
+    align-content: space-around;
+    align-content: space-evenly;
+    align-content: start;
+    align-content: stretch; */
+
+    /* alinhar os items */
+    /* justify-items: center; */
+    /* justify-items: end;
+    justify-items: flex-end;
+    justify-items: baseline;
+    justify-items: flex-start;
+    justify-items: left;
+    justify-items: legacy;
+    justify-items: right;
+    justify-items: start;
+    justify-items: stretch;
+    justify-items: unset; */
+
+    /* alinha items no menor espaço do container */
+
+    /* align-items: center; */
+    /* align-items: baseline;
+    align-items: end;
+    align-items: flex-start;
+    align-items: normal;
+    align-items: flex-end;
+    align-items: start;
+    align-items: stretch;
+    align-items: self-end;
+    align-items: inherit;
+    align-items: self-start;
+    align-items: unset; */
+
+
+
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    grid-gap: 10px;
+
+
+
+
+
+}
+
+.space {
+/* 
+    height: 300px;
+    width: 300px; */
+    color: rgb(11, 0, 0);
+    font-size: 30px;
+    background-color: rgb(14, 196, 14);
+
+    
+}
+
+/* .one { */
+    /* background: #333453; */
+
+    /* grid column */
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+/* é aplicado nos items, serve para define aonde ele começa ou terminar nas colunas. */
+
+
+/* .two { */
+    /* background: #11c44d; */
+
+    /* grid-row */
+    /* grid-row-start: 1;
+    grid-row-end: 4; */
+
+    /* serve para aplicar nas linhas aonde começa e terminar */
+
+
+/* .three {} */
+    /* background: #f453d3; */
+
+    /* grid-column: 2/4; */
+
+    /* grid-row-start: 2;
+    grid-row-end: 4; */
+
+    /* grid-row: 2/5 ; */
+
+
+/* .four {} */
+    /* background: #453fae; */
+
+
+/* .five { */
+    /* background: #a2453f; */
+    /* grid-column: 5/8; */
+    /* 
+    justify-self: baseline;
+    justify-self: center;
+    justify-self: end;
+    justify-self: flex-start;
+    justify-self: flex-end;
+    justify-self: left;
+    justify-self: right;
+    justify-self: self-end;
+    justify-self: self-start;
+    justify-self: start;
+    justify-self: stretch;
+    justify-self: center;
+    
+    */
+    
+    
+
+
+/* .six { */
+    /* background: #2c4c6f; */
+
+
+/* .seven { */
+    /* background: #6caf23; */
+
+/* .eight { */
+    /* background: #67583a; */
+/* 
+.nine { */
+    /* background: #00f100; */
+
+    /* 
+    
+    align-self: baseline; */
+    /* align-self: center; */
+    /* align-self: end; */
+    /* align-self: flex-end; */
+    /* justify-self: center; */
+    /* align-self: flex-start; */
+    /* align-self: self-end; */
+    /* align-self: start; */
+    /* align-self: stretch; */
+    /* align-self: auto;
+    
+    */
